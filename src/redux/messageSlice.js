@@ -6,7 +6,7 @@ const initialState = {
 const MessageSlice = createSlice({
   name: "message",
   initialState,
-  reducer: {
+  reducers: {
     setMessage: (state, action) => {
       state.text = action.payload;
     },
